@@ -1,28 +1,28 @@
-# Discord The Last Meadow
+# <span style="color: #1e88e5">Discord The Last Meadow</span>
 
 A lightweight helper script for The Last Meadow mini-games inside Discord.
 
-## Features
+## <span style="color: #1e88e5">Features</span>
 
 - Automatically clicks Grass Toucher
 - Clicks available Activity buttons whenever no cooldown is active
 - Clicks the Continue button for you
 - Clicks Go Back when the message `Looks like we're out of resources :(. Once someone collects some more, try again!` appears
-- Ranger mode: detects targets and clicks them quickly
-- Paladin mode: detects battle, tracks the shield in real time, supports dual-projectile prioritization, and blocks real mouse input inside the Paladin arena
-- Priest mode: detects the 3x3 glyph board and solves triplets by grouping matching glyph signatures
-- Craft mode: reads and executes key sequences automatically
-- Global stop command: `stopBot()`
+- <span style="color: #00aa77">**Ranger mode:**</span> detects targets and clicks them quickly
+- <span style="color: #00aa77">**Paladin mode:**</span> detects battle, tracks the shield in real time, supports dual-projectile prioritization, and blocks real mouse input inside the Paladin arena
+- <span style="color: #00aa77">**Priest mode:**</span> detects the 3x3 glyph board and solves triplets by grouping matching glyph signatures
+- <span style="color: #00aa77">**Craft mode:**</span> reads and executes key sequences automatically
+- <span style="color: #00aa77">**Global stop command:**</span> `stopBot()`
 
 ## Requirements
 
 - Discord client, or Discord in a browser at discord.com/app
 
-## Quick Start
+## <span style="color: #1e88e5">Quick Start</span>
 
 1. Open Discord and go to The Last Meadow.
 2. Open Developer Tools. Windows/Linux: `Ctrl + Shift + I`. macOS: `Cmd + Option + I`.
-3. Open the Console tab. If paste is blocked, type `allow pasting` and press `Enter`.
+3. Open the Console tab. <span style="color: #d32f2f">If paste is blocked, type `allow pasting` and press `Enter`.</span>
 4. Paste the script below.
 5. Press Enter.
 <details>
@@ -801,7 +801,7 @@ A lightweight helper script for The Last Meadow mini-games inside Discord.
   
 </details>
 
-## Stop the Script
+## <span style="color: #1e88e5">Stop the Script</span>
 
 Run this in Console:
 
@@ -809,7 +809,7 @@ Run this in Console:
 stopBot();
 ```
 
-## Configuration
+## <span style="color: #1e88e5">Configuration</span>
 
 You can tune behavior in the `CFG` object:
 
@@ -822,16 +822,16 @@ You can tune behavior in the `CFG` object:
 - `goBackScanMs` for Go Back modal scan interval
 - `goBackCooldownMs` for Go Back click debounce
 
-## Notes
+## <span style="color: #1e88e5">Notes</span>
 
 - The script relies on current Discord CSS class names.
-- If Discord updates class names, selectors may need to be updated.
-- Re-run the script after a page refresh or Discord update.
+- If Discord updates class names, selectors may need to be updated.</span>
+- Re-run the script after a page refresh or Discord update.</span>
 
-## Known issues
+## <span style="color: #1e88e5">Known Issues</span>
 
-- Paladin can still occasionally miss a projectile due to game timing and browser frame scheduling.
+- Paladin can occasionally miss a projectile due to game timing and browser frame scheduling.</span>
 
-## Disclaimer
+## <span style="color: #d32f2f">⚠️ Disclaimer</span>
 
 Use at your own risk. This project is for educational and personal automation purposes.
